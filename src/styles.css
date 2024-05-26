@@ -1,6 +1,6 @@
 :root {
   --black: #121212;
-  --brown: #bea69e;
+  --brown: #f0ec57;
   --white: #ffffff;
 }
 body {
@@ -350,7 +350,7 @@ img {
 .hero-section {
   max-width: 335px;
   width: 100%;
-  background-color: #1d1d1d;
+  background-color: #1b1b1b;
   border-radius: 30px;
   padding-top: 40px;
   padding-left: 20px;
@@ -653,13 +653,15 @@ img {
   margin-bottom: 40px;
 }
 .about-us-images {
-  background-image: url(../img/mobuboutus.png);
+  background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
 }
 @media (min-resolution: 192dpi) {
   .about-us-images {
-    background-image: url(../img/mobaboutus@2x.png);
+    background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
+    border-radius: 20%;
   }
 }
+
 .about-us-wrapper {
   display: flex;
   flex-direction: column;
@@ -688,11 +690,12 @@ img {
     margin-bottom: 50px;
   }
   .about-us-images {
-    background-image: url(../img/tababoutus.png);
+    background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
   }
   @media (min-resolution: 192dpi) {
     .about-us-images {
-      background-image: url(../img/tababoutus@2x.png);
+      background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
+      border-radius: 20%;
     }
   }
   .about-us-wrapper {
@@ -723,11 +726,13 @@ img {
     margin-bottom: 0;
   }
   .about-us-images {
-    background-image: url(../img/decstaboutus.png);
+    background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
+    border-radius: 50px;
   }
   @media (min-resolution: 192dpi) {
     .about-us-images {
-      background-image: url(../img/decstaboutus@2x.png);
+      background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
+      border-radius: 20%;
     }
   }
   .about-us-wrapper {
@@ -1028,11 +1033,15 @@ img {
 @media screen and (min-width: 768px) {
   .sign-up-section {
     padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1280px) {
   .sign-up-section {
     padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -1040,6 +1049,7 @@ img {
   .sign-up-section {
     display: flex;
     gap: 60px;
+    justify-content: center;
   }
 }
 /* .sign-up-left {
@@ -1082,8 +1092,6 @@ img {
     line-height: 1.25;
   }
 }
-/* .sign-up-form {
-} */
 
 .sign-up-input {
   width: 100%;
@@ -1162,38 +1170,6 @@ img {
 
 .privacy-policy-link {
   text-decoration-line: underline;
-}
-.sign-up-right {
-  display: none;
-}
-
-@media only screen and (min-width: 1280px) {
-  .sign-up-right {
-    display: flex;
-    gap: 20px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .sign-up-image-div-1 {
-    width: 180px;
-    height: 288px;
-    padding-top: 76px;
-    padding-right: 19px;
-    border-radius: 1000px;
-    background: #bea69e;
-    margin-top: 252px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .sign-up-image-div-2 {
-    width: 340px;
-    height: 540px;
-    padding: 156px 50px 88px 50px;
-    border-radius: 1000px;
-    background: #1d1d1d;
-  }
 }
 
 .sign-up-images1 {
@@ -1614,8 +1590,7 @@ img {
   height: 100%;
   padding-top: 180px;
   padding-left: 20px;
-  background-color: #bea69e;
-  background-image: url(../img/mobilemobile.png);
+  background-color: var(--brown);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 55vw;
