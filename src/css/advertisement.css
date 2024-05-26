@@ -1,0 +1,61 @@
+/* advertisement */
+.ertisement-section {
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+}
+.ertisement-box {
+  display: flex;
+}
+.ertisement-title {
+  flex-shrink: 0;
+  margin: 0;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: advertismentLine;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  padding: 0 15px;
+  font-weight: 400;
+  font-size: 28px;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.span-ertisment {
+  color: var(--brown);
+}
+@media screen and (min-width: 768px) {
+  .ertisement-title {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+  .ertisement-section {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .ertisement-title {
+    font-size: 59px;
+    line-height: 1.09;
+  }
+  .ertisement-section {
+    margin-bottom: 150px;
+  }
+}
+@keyframes advertismentLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}

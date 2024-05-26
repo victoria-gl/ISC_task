@@ -1,0 +1,141 @@
+/* reviews*/
+.reviews-section {
+  padding-bottom: 80px;
+}
+@media screen and (min-width: 768px) {
+  .reviews-section {
+    padding-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .reviews-section {
+    padding-bottom: 150px;
+  }
+}
+.reviews-title {
+  color: var(--white);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .reviews-title {
+    font-size: 48px;
+    line-height: 1.12;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 767.98px) and (max-width: 1279.98px) {
+  .reviews-card-box {
+    margin-left: 32px;
+  }
+}
+.reviews-card-box {
+}
+.reviews-list {
+  display: flex;
+  gap: 20px;
+}
+.reviews-item {
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+@media screen and (max-width: 767.98px) {
+  .reviews-item {
+    max-width: 335px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .reviews-item {
+    width: 640px;
+  }
+}
+@media screen and (max-width: 1279.98px) {
+  .reviews-item:last-child {
+    display: none;
+  }
+}
+.item-box {
+}
+.personal-iformation {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.name-box {
+}
+
+.name {
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.student {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.33;
+  color: rgba(255, 255, 255, 0.5);
+}
+.stars {
+  width: 96px;
+  height: 16px;
+}
+.text-reviews {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.29;
+}
+@media screen and (max-width: 767.98px) {
+  .text-reviews {
+    max-width: 295px;
+  }
+}
+.icon-student {
+  max-height: 56px;
+}
+@media screen and (min-width: 768px) {
+  .name-box {
+    display: flex;
+  }
+  .tab {
+    margin-right: 273px;
+  }
+  .stars {
+    width: 116px;
+    height: 20px;
+  }
+  .text-reviews {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .student {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .name-box {
+    display: flex;
+  }
+  .name {
+    line-height: 1.4;
+  }
+  .tab {
+    margin-right: 165px;
+  }
+  .tab2 {
+    margin-right: 156px;
+  }
+
+  .student {
+    font-size: 14px;
+  }
+}
