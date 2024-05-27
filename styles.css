@@ -653,11 +653,11 @@ img {
   margin-bottom: 40px;
 }
 .about-us-images {
-  background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
+  background-image: url(./img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
 }
 @media (min-resolution: 192dpi) {
   .about-us-images {
-    background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
+    background-image: url(./img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
     border-radius: 20%;
   }
 }
@@ -690,11 +690,11 @@ img {
     margin-bottom: 50px;
   }
   .about-us-images {
-    background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
+    background-image: url(./img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
   }
   @media (min-resolution: 192dpi) {
     .about-us-images {
-      background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
+      background-image: url(./img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
       border-radius: 20%;
     }
   }
@@ -726,12 +726,12 @@ img {
     margin-bottom: 0;
   }
   .about-us-images {
-    background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
+    background-image: url(./img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
     border-radius: 50px;
   }
   @media (min-resolution: 192dpi) {
     .about-us-images {
-      background-image: url(../src/img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
+      background-image: url(./img/ryan-faulkner-hogg-7cFu9k-jRgg-unsplash.jpg);
       border-radius: 20%;
     }
   }
